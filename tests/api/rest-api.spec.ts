@@ -1,5 +1,10 @@
 import { test, expect } from '@playwright/test';
 
+/**
+ * REST API Tests
+ * Tests CRUD operations on the JSONPlaceholder API
+ * @site https://jsonplaceholder.typicode.com
+ */
 test.describe('API Tests', () => {
 
   test('GET - should return list of users', async ({ request }) => {
